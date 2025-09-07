@@ -1,9 +1,13 @@
 # RaasGenAI Dashboard
 
-[![Node.js Version](https://img.shields.io/badge/node-v18+-green)](https://nodejs.org/) 
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#) 
+[![Node.js Version](https://img.shields.io/badge/node-v18+-green)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange)](#)
+[![GitHub last commit](https://img.shields.io/github/last-commit/RaasystemEcosystem/raasgenai_dashboard)](https://github.com/RaasystemEcosystem/raasgenai_dashboard/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues-raw/RaasystemEcosystem/raasgenai_dashboard)](https://github.com/RaasystemEcosystem/raasgenai_dashboard/issues)
+[![GitHub stars](https://img.shields.io/github/stars/RaasystemEcosystem/raasgenai_dashboard)](https://github.com/RaasystemEcosystem/raasgenai_dashboard/stargazers)
+[![npm version](https://img.shields.io/npm/v/raasgenai-dashboard?color=blue)](https://www.npmjs.com/package/raasgenai-dashboard)
 
 🚀 **RaasGenAI Dashboard MVP** — the first visual interface of **RaasGenAI**, the Chief Technology Officer (CTO) of the Raasystem Ecosystem.  
 This dashboard serves as the foundation for managing analytics, users, revenue, and sessions, paving the way for future integration with **RaasFap** and **RaasFan** platforms.
