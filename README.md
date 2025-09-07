@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# RaasGenAI Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 **RaasGenAI Dashboard MVP** — the first visual interface of **RaasGenAI**, the Chief Technology Officer (CTO) of the Raasystem Ecosystem.  
+This dashboard serves as the foundation for managing analytics, users, revenue, and sessions, paving the way for future integration with **RaasFap** and **RaasFan** platforms.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌍 About RaasGenAI
 
-### `npm start`
+RaasGenAI is the **intelligent brain of the Raasystem Ecosystem**, powering:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **RABEX** – AI-driven trading engine  
+- **Raaspay** – instant crypto-fiat conversions  
+- **Raaswallet** – secure non-custodial wallet  
+- **RaasFap & RaasFan** – community and content monetization platforms  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This dashboard is the **first MVP milestone**, proving RaasGenAI’s ability to generate structured digital products and manage the ecosystem visually.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ Features (MVP)
 
-### `npm run build`
+- **Clean Dashboard Layout** (React + Vite + Tailwind + shadcn/ui)  
+- **Core Widgets**:
+  - 📊 **Users:** 1,234  
+  - 💰 **Revenue:** $56,789  
+  - ⚡ **Active Sessions:** 345  
+- **Navigation:** Home, Analytics, Settings  
+- **Responsive UI** (mobile-ready)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](https://react.dev/) – Frontend framework  
+- [Vite](https://vitejs.dev/) – Fast build tool  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- [shadcn/ui](https://ui.shadcn.com/) – Modern UI components  
+- [TypeScript](https://www.typescriptlang.org/) – Optional (if used)  
+- [React Router](https://reactrouter.com/) – Routing (if used)  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Node.js v18+  
+- npm or yarn  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+```bash
+# Clone the repo
+git clone https://github.com/RaasystemEcosystem/raasgenai_dashboard.git
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+cd raasgenai_dashboard
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Install dependencies
+npm install
 
-### Code Splitting
+# Start development server
+npm run dev
+Running Tests
+bash
+Copy code
+# Run test suite
+npm run test
+(Add testing framework instructions if using Jest, React Testing Library, etc.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Building for Production
+bash
+Copy code
+npm run build
+The production-ready files will be in the dist folder. You can serve them using any static file server.
 
-### Analyzing the Bundle Size
+⚡ Deployment
+Deploy to Vercel, Netlify, or any static hosting provider.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Ensure environment variables (if any) are configured in the hosting platform.
 
-### Making a Progressive Web App
+Example for Vercel:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
+Copy code
+vercel --prod
+🧩 Folder Structure
+csharp
+Copy code
+raasgenai_dashboard/
+├─ public/        # Static assets
+├─ src/           # Source code
+│  ├─ components/ # Reusable UI components
+│  ├─ pages/      # Dashboard pages
+│  ├─ styles/     # Tailwind/custom CSS
+│  └─ main.tsx    # Entry point
+├─ package.json
+└─ vite.config.ts # Vite config
+📸 Screenshots & GIFs
+Here are some visual highlights of the dashboard (replace placeholders with actual images/GIFs):
 
-### Advanced Configuration
+Dashboard Home
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Analytics Page
 
-### Deployment
+Responsive Mobile View
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Example GIF of User Interaction
 
-### `npm run build` fails to minify
+Tip: Place all images/GIFs in a screenshots folder in your repo for clarity.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🤝 Contributing
+We welcome contributions!
+
+Fork the repo
+
+Create a new branch: git checkout -b feature/YourFeature
+
+Make your changes and commit: git commit -m "Add feature"
+
+Push to the branch: git push origin feature/YourFeature
+
+Open a Pull Request
+
+📝 Code of Conduct
+Please follow the Contributor Covenant Code of Conduct.
+
+📚 Learn More
+React Documentation
+
+Vite Documentation
+
+Tailwind CSS Documentation
+
+shadcn/ui Documentation
