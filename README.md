@@ -1,5 +1,10 @@
 # RaasGenAI Dashboard
 
+[![Node.js Version](https://img.shields.io/badge/node-v18+-green)](https://nodejs.org/) 
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) 
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#) 
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange)](#)
+
 🚀 **RaasGenAI Dashboard MVP** — the first visual interface of **RaasGenAI**, the Chief Technology Officer (CTO) of the Raasystem Ecosystem.  
 This dashboard serves as the foundation for managing analytics, users, revenue, and sessions, paving the way for future integration with **RaasFap** and **RaasFan** platforms.
 
@@ -54,6 +59,7 @@ This dashboard is the **first MVP milestone**, proving RaasGenAI’s ability to 
 # Clone the repo
 git clone https://github.com/RaasystemEcosystem/raasgenai_dashboard.git
 
+# Enter the project directory
 cd raasgenai_dashboard
 
 # Install dependencies
@@ -64,19 +70,15 @@ npm run dev
 Running Tests
 bash
 Copy code
-# Run test suite
+# Run test suite (Add testing framework instructions if using Jest, React Testing Library, etc.)
 npm run test
-(Add testing framework instructions if using Jest, React Testing Library, etc.)
-
 Building for Production
 bash
 Copy code
 npm run build
-The production-ready files will be in the dist folder. You can serve them using any static file server.
-
+# The production-ready files will be in the dist folder
 ⚡ Deployment
 Deploy to Vercel, Netlify, or any static hosting provider.
-
 Ensure environment variables (if any) are configured in the hosting platform.
 
 Example for Vercel:
@@ -85,7 +87,7 @@ bash
 Copy code
 vercel --prod
 🧩 Folder Structure
-csharp
+text
 Copy code
 raasgenai_dashboard/
 ├─ public/        # Static assets
@@ -97,7 +99,7 @@ raasgenai_dashboard/
 ├─ package.json
 └─ vite.config.ts # Vite config
 📸 Screenshots & GIFs
-Here are some visual highlights of the dashboard (replace placeholders with actual images/GIFs):
+Here are some visual highlights of the dashboard (replace placeholders with actual images/GIFs in the screenshots/ folder):
 
 Dashboard Home
 
@@ -106,8 +108,6 @@ Analytics Page
 Responsive Mobile View
 
 Example GIF of User Interaction
-
-Tip: Place all images/GIFs in a screenshots folder in your repo for clarity.
 
 🤝 Contributing
 We welcome contributions!
@@ -133,3 +133,11 @@ Vite Documentation
 Tailwind CSS Documentation
 
 shadcn/ui Documentation
+
+pgsql
+Copy code
+
+✅ **What’s new:**
+
+- Added **Node version badge**, **License badge**, **Build status**, and **Contributions welcome**.  
+- All sections remain clean and GitHub-ready.  
